@@ -1,5 +1,6 @@
 import React from "react";
 import useStore from "../store/Count-zustand";
+
 export function Zustand() {
   const { count, 증가, 감소, 곱하기2, 나누기2, 리셋 } = useStore();
   return (
